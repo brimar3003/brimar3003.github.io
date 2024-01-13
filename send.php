@@ -29,10 +29,10 @@ if($_SERVER['REQUEST_METHOD']=='POST'){
 
 	if (!$mail->send()) {
 		echo "Mailer Error: " . $mail->ErrorInfo;
-        header("Location: /?send=false");
+        header("Location: /");
 	} else {
 		echo "Message sent!";
-        header("Location: /?send=true");
+        header("Location: /");
 	}
 }
 ?>
