@@ -1,0 +1,300 @@
+<?php
+
+    if(isset($_GET['send'])) {
+        if($_GET['send'] == 'true') {
+            echo "<script>window.alert('Thank you, your message has been send. I will contact you soon.')</script>";
+        }else{
+            echo "<script>window.alert('Sorry, your message has not been send. Try again please.')</script>";
+        }
+    }
+
+?>
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Portfolio of Brian Marquez</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/unicons.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+    <link rel="stylesheet" href="css/tooplate-style.css">
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-sm navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Brian Marquez</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link"><span data-hover="About">About</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#project" class="nav-link"><span data-hover="Projects">Projects</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#resume" class="nav-link"><span data-hover="Resume">Resume</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link"><span data-hover="Contact">Contact</span></a>
+                    </li>
+                </ul>
+
+                <ul class="navbar-nav ml-lg-auto">
+                    <div class="ml-lg-4">
+                      <div class="color-mode d-lg-flex justify-content-center align-items-center">
+                        <i class="color-mode-icon"></i>
+                      </div>
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ABOUT -->
+    <section class="about full-screen d-lg-flex justify-content-center align-items-center" id="about">
+        <div class="container">
+            <div class="row">
+                
+                <div class="col-lg-7 col-md-12 col-12 d-flex align-items-center">
+                    <div class="about-text">
+                        <small class="small-text">Welcome to <span class="mobile-block">my portfolio website!</span></small>
+                        <h1 class="animated animated-text">
+                            <span class="mr-2">Hey there, I'm</span>
+                                <div class="animated-info">
+                                    <span style="color: #ffc200;">Software Developer</span>
+<!--                                    <span class="animated-item">Brian Marquez</span>-->
+<!--                                    <span class="animated-item">Software Developer</span>-->
+                                </div>
+                        </h1>
+
+                        <p>Embarking on the journey to create a successful product is a formidable challenge that requires a unique blend of skills, dedication, and innovation. In this dynamic landscape, I find myself propelled by an abundance of energy and a genuine love for the intricacies of web development. The process of bringing an idea to fruition, navigating through the complexities of design, coding, and user experience, is a thrilling adventure that I wholeheartedly embrace. My commitment to excellence, coupled with a deep-seated passion for crafting meaningful digital experiences, drives me to push boundaries and overcome obstacles in the pursuit of building exceptional products that leave a lasting impact.</p>
+                        
+                        <div class="custom-btn-group mt-4">
+                          <a href="#" class="btn mr-lg-2 custom-btn"><i class='uil uil-file-alt'></i> Download Resume</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-5 col-md-12 col-12">
+                    <div class="about-image svg">
+                        <img src="images/undraw/software-development-company.svg" class="img-fluid" alt="svg image">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="project py-5" id="project">
+        <div class="container">
+                
+                <div class="row">
+                  <div class="col-lg-11 text-center mx-auto col-12">
+
+                      <div class="col-lg-8 mx-auto">
+                        <h2>My Recent Works</h2>
+                      </div>
+
+                      <div class="owl-carousel owl-theme">
+                        <div class="item">
+                          <div class="project-info">
+                            <img src="images/project/project-image01.png" class="img-fluid" alt="project image">
+                          </div>
+                        </div>
+
+                        <div class="item">
+                          <div class="project-info">
+                            <img src="images/project/project-image02.png" class="img-fluid" alt="project image">
+                          </div>
+                        </div>
+
+                        <div class="item">
+                          <div class="project-info">
+                            <img src="images/project/project-image03.png" class="img-fluid" alt="project image">
+                          </div>
+                        </div>
+
+                        <div class="item">
+                          <div class="project-info">
+                            <img src="images/project/project-image04.png" class="img-fluid" alt="project image">
+                          </div>
+                        </div>
+
+                        <div class="item">
+                          <div class="project-info">
+                            <img src="images/project/project-image05.png" class="img-fluid" alt="project image">
+                          </div>
+                        </div>
+                      </div>
+
+                  </div>
+                </div>
+        </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section class="resume py-5 d-lg-flex justify-content-center align-items-center" id="resume">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-6 col-12">
+                    <h2 class="mb-4">About me</h2>
+
+                    <div class="about-text" style="text-align: justify;">
+                        <p>Passionate web developer dedicated to crafting visually stunning and seamlessly functional websites. Armed with a robust foundation in web development, I am consistently expanding my skill set by delving into the latest technologies. As a self-taught developer, I thrive on seeking out and conquering new challenges that push the boundaries of my expertise.<br/><br>
+                            Beyond coding, I find joy in the exhilaration of riding a bike, the immersive world of video games, and the excitement of soccer matches. I am not just enthusiastic about technology; I am equally eager to connect with new individuals, exchange ideas, and continuously learn from diverse experiences. In essence, my journey extends beyond the code, as I embrace the multifaceted aspects of life with curiosity and an unwavering desire for personal and professional growth.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-12">
+                  <h2 class="mb-4">Languages and Frameworks</h2>
+
+                    <div class="timeline">
+                        <div class="timeline-wrapper">
+                             <div class="timeline-yr">
+                             </div>
+                             <div class="timeline-info">
+                                  <h3><span>Javascript</span>
+<!--                                      <small>Best Studio</small>-->
+                                  </h3>
+                                  <p>Node JS, React, React Native, Angular, Astro.</p>
+                             </div>
+                        </div>
+
+                        <div class="timeline-wrapper">
+                            <div class="timeline-yr">
+                            </div>
+                            <div class="timeline-info">
+                                <h3><span>Java</span>
+                                    <!--                                      <small>Best Studio</small>-->
+                                </h3>
+                                <p>Spring Boot, JavaServer Faces (JSF).</p>
+                            </div>
+                        </div>
+
+                        <div class="timeline-wrapper">
+                            <div class="timeline-yr">
+                            </div>
+                            <div class="timeline-info">
+                                <h3><span>PHP</span>
+                                    <!--                                      <small>Best Studio</small>-->
+                                </h3>
+                                <p>Laravel, CodeIgniter.</p>
+                            </div>
+                        </div>
+
+                        <div class="timeline-wrapper">
+                            <div class="timeline-yr">
+                            </div>
+                            <div class="timeline-info">
+                                <h3><span>Dart</span>
+                                    <!--                                      <small>Best Studio</small>-->
+                                </h3>
+                                <p>Flutter.</p>
+                            </div>
+                        </div>
+
+                        <div class="timeline-wrapper">
+                            <div class="timeline-yr">
+                            </div>
+                            <div class="timeline-info">
+                                <h3><span>C#</span>
+                                    <!--                                      <small>Best Studio</small>-->
+                                </h3>
+                                <p>ASP.Net.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact py-5" id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-12">
+              <h2 class="mb-4">Interested to work together?</h2>
+
+              <p style="text-align: justify;">I am consistently intrigued by new and exciting projects, and I welcome the opportunity to engage in conversations. If you're keen on discussing ideas or projects, please feel free to reach out. I'd love to connect with you.</p>
+              <div class="custom-btn-group mt-4">
+                  <a href="mailto:brianmarquez3003@gmail.com" class="btn mr-lg-2 custom-btn"><i class='uil uil-envelope-alt'></i></a>
+              </div>
+          </div>
+
+          <div class="col-lg-6 col-12">
+            <div class="contact-form">
+              <form action="send.php" method="post">
+                <div class="row">
+                  <div class="col-lg-6 col-12">
+                    <input type="text" class="form-control" name="name" placeholder="Your Name" id="name">
+                  </div>
+
+                  <div class="col-lg-6 col-12">
+                    <input type="email" class="form-control" name="email" placeholder="Email" id="email">
+                  </div>
+
+                  <div class="col-12">
+                    <textarea name="message" rows="6" class="form-control" id="message" placeholder="Message"></textarea>
+                  </div>
+
+                  <div class="ml-lg-auto col-lg-5 col-12">
+                    <input type="submit" class="form-control submit-btn" value="Let's talk">
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <hr style="border-bottom: 1px solid #5b5b5b;"/>
+    <!-- FOOTER -->
+     <footer class="footer py-5">
+          <div class="container">
+               <div class="row">
+
+                    <div class="col-lg-12 col-12 text-center">
+                        <a href="https://github.com/brimar3003" target="_blank" style="font-size: 18pt; color: #5b5b5b;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2.247a10 10 0 0 0-3.162 19.487c.5.088.687-.212.687-.475c0-.237-.012-1.025-.012-1.862c-2.513.462-3.163-.613-3.363-1.175a3.636 3.636 0 0 0-1.025-1.413c-.35-.187-.85-.65-.013-.662a2.001 2.001 0 0 1 1.538 1.025a2.137 2.137 0 0 0 2.912.825a2.104 2.104 0 0 1 .638-1.338c-2.225-.25-4.55-1.112-4.55-4.937a3.892 3.892 0 0 1 1.025-2.688a3.594 3.594 0 0 1 .1-2.65s.837-.262 2.75 1.025a9.427 9.427 0 0 1 5 0c1.912-1.3 2.75-1.025 2.75-1.025a3.593 3.593 0 0 1 .1 2.65a3.869 3.869 0 0 1 1.025 2.688c0 3.837-2.338 4.687-4.562 4.937a2.368 2.368 0 0 1 .674 1.85c0 1.338-.012 2.413-.012 2.75c0 .263.187.575.687.475A10.005 10.005 0 0 0 12 2.247"/></svg>
+                        </a>
+                    </div>
+                    
+               </div>
+          </div>
+     </footer>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/Headroom.js"></script>
+    <script src="js/jQuery.headroom.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/custom.js"></script>
+
+  </body>
+</html>
